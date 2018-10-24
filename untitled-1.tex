@@ -1,0 +1,33 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{geometry}
+\usepackage{color}
+\geometry{a4paper}
+\usepackage[frenchb]{babel}
+\title{Moj pierwszy dokument}
+\author{Mateusz Salata}
+\date{}
+\begin{document}
+\maketitle
+ \textcolor{red}{ hello}
+
+\begin{table}[ht]
+	\caption{bez linii} 
+	\centering 
+	\begin{tabular}{c c c} 
+	\hline 
+	\color{blue}Dane1 & Dane2\#1 & Dane3\#2 \\ [0.5ex] 
+	\hline 
+	5 & 50 & 837 \\ 
+	\textsf {Elo2}  & 47 & 877 \\
+	3 & 55 & 15 \\
+	4 & 35 & 144  \\
+	5 & 45 & 300  \\ [1ex]
+\hline 
+\end{tabular}
+\label{table:nonlin}
+\end{table}
+\bibliographystyle{plain}
+\bibliography{b}
+\end{document}
